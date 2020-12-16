@@ -1,0 +1,203 @@
+body {
+  background-color:#f4f4
+  color: #fff
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 15px
+  line-height: 1.6em;
+  margin:0;
+  font-weight: normal;
+}
+.container{
+  width:80%
+  margin:auto;
+  margin:0;
+  overflow:hidden;
+}
+#main-header{
+  background-color: midnightblue;
+  color:#fff
+  }
+
+  .container ul{
+    background-color:gray;
+    font-size:22px;}
+
+    .cfb-list li:first-child{
+       background:firebrick;
+
+    }
+    .cfb-list li:nth-child(2){
+       background:navy;
+     }
+
+   .cfb-list li:nth-child(3){
+      background:orange;
+    }
+
+  .cfb-list li:nth-child(4){
+     background:red;
+   }
+
+ .cfb-list li:nth-child(5){
+    background:maroon;
+  }
+  .cfb-list li:nth-child(6){
+     background:mediumblue;
+
+   }
+   .cfb-list li:nth-child(7){
+      background:gainsboro;
+    }
+     .cfb-list li:last-child{
+     background:blue;
+  }
+.cfb-list {
+  min-height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  #navbar {
+
+    background-color: #333
+    color:#fff
+  }
+  #navbar ul{
+    margin-bottom:0px;
+    padding: 25px;
+    list-style: none;
+    margin-top:0px;
+  }
+  #navbar li{
+    display:inline;
+  }
+#navbar a{
+  color:#fff;
+  text-decoration:none;
+  font-size:28px;
+  padding-right:25px;
+  }
+
+.box-text{
+  background-image: image('../images/red-image.jpg');
+  background-position: top center;
+  border:20px;
+  font-size: 1.5em;
+  border-style: solid;
+  background-color:darkslateblue;
+}
+  .devonta-smith {
+  color:black;
+  background-color:darkslategrey;
+  border-style:solid;
+  font-size:1.3em;
+
+}
+
+
+
+
+
+
+  #showcase{
+    border:20px;
+    background-image: url('../images/background-h1.jpg');
+    background-position: center right;
+    min-height:400px;
+    margin-bottom:30px;
+    margin-top:0;
+    text-align: center;
+    color:;
+  }
+  #showcase h1{
+  color:#fff;
+  font-size:35px;
+  line-height:1.6em;
+  padding-top:30px;
+  }
+#main{
+  float:left;
+  width:70%;
+  padding:0 30px;
+  margin-right:9S0px
+  box-sizing: border-box;
+
+}
+#main h1{
+  padding:50px;
+  font-size:40px;
+  line-height:em;
+}
+#main p{
+  border:20px;
+}
+
+
+
+#sidebar{
+  float:right;
+  width:35%;
+  height:600px;
+  background:#333;
+  color:#fff;
+  padding:20px;
+  margin-top:1px;
+  font-size:1.2em;
+  box-sizing: border-box;
+  min-height:300px;
+}
+.yards-table{
+  font-size: 1.5em;
+border:0px;
+border-style: solid;
+border-radius: 15px;
+padding:10px;
+margin:0px;
+background-image: url('../images/NCAA-Stats-Background.jpg');
+color:#fff
+
+}
+.SOS-box {
+  background-image: url('../images/space-background.jpg');
+  background-repeat: center top;
+  background-size: cover;
+font-size:1.1em;
+  border:0px;
+  border-style:solid;
+  padding:15px;
+  color:#fff;
+  margin-top:0px;
+
+
+
+}
+.button:hover{
+  background-color:dodgerblue;
+
+}
+#main-footer{
+  background:#333;
+  color:#fff;
+  text-align: center;
+  padding:20px;
+  margin-top:0px;
+}
+@media(max-width:600px){
+  #main{
+    width:100#;
+    float:none;
+  }
+  #sidebar{
+    width:100%
+    float:none;
+  }
+}
